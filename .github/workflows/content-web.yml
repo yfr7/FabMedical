@@ -11,8 +11,8 @@ on:
    # Configure workflow to also support triggering manually
    workflow_dispatch:
 
- # Environment variables are defined so that they can be used throughout the job definitions.
- env:
+# Environment variables are defined so that they can be used throughout the job definitions.
+env:
    imageRepository: 'content-web'
    resourceGroupName: 'fabmedical-290987'
    containerRegistryName: 'acr290987'
